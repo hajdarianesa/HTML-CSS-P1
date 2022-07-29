@@ -1,0 +1,1390 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ :root {
+    --color-pink: #fd7792;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(190 183 183 / 10%);
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    height: 100%;
+}
+
+
+/*HEADER*/
+
+header .header a {
+    font-size: 26px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+header nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+a>span {
+    color: var(--color-pink);
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+header>nav>div.menu>ul>li>a>i {
+    font-size: 23px;
+}
+
+header>nav>div.menu>ul>li>a {
+    text-decoration: none;
+}
+
+header div.menu ul.submenu li a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+
+/*MAIN*/
+
+.container {
+    background-image: url('../images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp');
+    background-size: cover;
+    min-height: 655px;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.container .content {
+    padding-top: 213px;
+}
+
+.content h3 {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.content h1 {
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.button1,
+.button2 {
+    padding: 12px 16px;
+    width: 132px;
+}
+
+.button1 {
+    background-color: var(--color-pink);
+    border-color: var(--color-pink);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border-style: solid;
+}
+
+.button2 {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border-style: solid;
+}
+
+.button1:hover {
+    background-color: transparent;
+    color: var(--color-pink);
+}
+
+.button2:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+/*SECTION-1*/
+
+section.section-1>div.container-section-1>div>form {
+    background: white;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.forma1 {
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forma1 h3,
+#fname {
+    width: 100%;
+}
+
+.forma1 h3 {
+    font-size: 24px;
+    margin-top: -3px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 300;
+    color: black;
+}
+
+#fname {
+    margin-bottom: 19px;
+}
+
+.forma2 {
+    display: grid;
+    width: 100%;
+    gap: 19px;
+}
+
+input,
+select {
+    padding: 9px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 9px;
+    margin-top: 16px;
+    background-color: var(--color-pink);
+    border: 1px solid var(--color-pink);
+    color: white;
+    border-radius: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--color-pink);
+    border: 1px solid var(--color-pink);
+}
+
+.btn:active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.section-1 .box {
+    display: flex;
+}
+
+.box1 {
+    border: 1px solid white;
+    background: white;
+    height: 100%;
+    box-shadow: 16px 15px 5px 0px rgba(228, 228, 228, 0.75);
+}
+
+.box1 .img img {
+    width: 100%;
+}
+
+.box1 .body-box {
+    text-align: center;
+}
+
+.body-box h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/*SECTION-2*/
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.rooms-container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.one1 {
+    background-image: url('../images/room1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.two2 {
+    background-image: url('..//images/room2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.three {
+    background-image: url('../images/room3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.four {
+    background-image: url('../images/room4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.body-room {
+    width: 100%;
+}
+
+.room-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.room-details ul {
+    list-style-type: none;
+    line-height: 25px;
+    margin-top: -5px;
+}
+
+.room-details a {
+    border: 1px solid rgba(221, 214, 214, 0.911);
+    padding: 9px 18px;
+    color: black;
+}
+
+i {
+    color: var(--color-pink);
+}
+
+.room-details h1 {
+    font-weight: 400;
+    color: black;
+}
+
+.room-details ul li {
+    color: black;
+}
+
+.room-details ul li span {
+    color: gray;
+}
+
+.room1:hover,
+.room2:hover,
+.room3:hover,
+.room4:hover {
+    background-color: #fd7792;
+    cursor: pointer;
+    color: white;
+}
+
+.room1:hover h1,
+.room2:hover h1,
+.room3:hover h1,
+.room4:hover h1 {
+    color: white;
+    transition: all .3s;
+}
+
+.room1:hover .room-details ul li,
+.room2:hover .room-details ul li,
+.room3:hover .room-details ul li,
+.room4:hover .room-details ul li {
+    background-color: #fd7792;
+    cursor: pointer;
+    color: rgb(202, 185, 185);
+}
+
+.room1:hover i,
+.room1:hover ul li span,
+.room2:hover i,
+.room2:hover ul li span,
+.room3:hover i,
+.room3:hover ul li span,
+.room4:hover i,
+.room4:hover ul li span {
+    color: white;
+}
+
+.room-details a {
+    background-color: white !important;
+}
+
+
+/*SECTION-3*/
+
+.section-3 .container-section-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-feed {
+    display: flex;
+}
+
+.first-feed .body-feed {
+    margin-left: 23px;
+}
+
+.body-feed p.person-name {
+    color: black;
+}
+
+
+/*SECTION-4*/
+
+.image-sec4 {
+    background-image: url(../images/logo2.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-side h1 {
+    font-weight: 400;
+}
+
+.section-4 p {
+    font-size: 14px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid .icon .icons {
+    border-radius: 50%;
+    background: var(--color-pink);
+}
+
+.body-text {
+    margin-top: -11px;
+}
+
+.heading h1 {
+    font-weight: 400;
+}
+
+.body-text h3 {
+    font-weight: 400;
+}
+
+
+/*SECTION-5*/
+
+.section-5 {
+    background-image: url('../images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp');
+    padding: 48px 0;
+    width: 100%;
+    position: relative;
+    min-height: 384px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, .8);
+    height: 100%;
+}
+
+.section-5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: var(--color-pink);
+}
+
+.bestrooms.title {
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-ready {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+/*SECTION-6*/
+
+.section-6 .container-section-6 {
+    padding: 100px 0px;
+}
+
+h1.text:hover {
+    color: var(--color-pink);
+}
+
+h1.text:hover i {
+    color: black;
+}
+
+.section-6 .three-boxes {
+    margin-bottom: 150px;
+}
+
+.three-boxes .box-room {
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.img1 {
+    background-image: url('../images/water.webp');
+    width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider1 9s infinite linear;
+}
+
+@keyframes slider1 {
+    0% {
+        background-image: url('../images/water.webp');
+    }
+    35% {
+        background-image: url('https://www.hospitalitynet.org/picture/xxl_153095171.jpg?t=1542801477');
+    }
+    65% {
+        background-image: url('https://media.cntraveler.com/photos/5b97ea9959ff057868b4ea22/5:4/w_3330,h_2664,c_limit/The-Peninsula-Bangkok_2018_The-Peninsula-Bangkok_The-Pool-11.jpg');
+    }
+    85% {
+        background-image: url('https://besthotelshome.com/wp-content/uploads/2020/03/Titanic-Beach-Lara-best-luxury-hotels-in-Antalya.jpg');
+    }
+}
+
+.three-boxes .box-room .img2 {
+    background-image: url('../images/blog2.webp');
+    width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+    height: 400px;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider2 9s infinite linear;
+}
+
+@keyframes slider2 {
+    0% {
+        background-image: url('../images/blog2.webp');
+    }
+    35% {
+        background-image: url('https://media.cntraveler.com/photos/5b97ea9959ff057868b4ea22/5:4/w_3330,h_2664,c_limit/The-Peninsula-Bangkok_2018_The-Peninsula-Bangkok_The-Pool-11.jpg');
+    }
+    65% {
+        background-image: url('https://besthotelshome.com/wp-content/uploads/2020/03/Titanic-Beach-Lara-best-luxury-hotels-in-Antalya.jpg');
+    }
+    85% {
+        background-image: url('https://www.hospitalitynet.org/picture/xxl_153095171.jpg?t=1542801477');
+    }
+}
+
+.three-boxes .box-room .img3 {
+    background-image: url('../images/blog3.webp');
+    width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider3 9s infinite linear;
+}
+
+@keyframes slider3 {
+    0% {
+        background-image: url('../images/blog3.webp');
+    }
+    35% {
+        background-image: url('https://besthotelshome.com/wp-content/uploads/2020/03/Titanic-Beach-Lara-best-luxury-hotels-in-Antalya.jpg');
+    }
+    65% {
+        background-image: url('https://www.hospitalitynet.org/picture/xxl_153095171.jpg?t=1542801477');
+    }
+    85% {
+        background-image: url('https://media.cntraveler.com/photos/5b97ea9959ff057868b4ea22/5:4/w_3330,h_2664,c_limit/The-Peninsula-Bangkok_2018_The-Peninsula-Bangkok_The-Pool-11.jpg');
+    }
+}
+
+.three-boxes .details {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 4px 0px;
+    margin-left: 24px;
+}
+
+.three-boxes .details .text h3 {
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.date a {
+    color: var(--color-pink);
+    font-size: 12px;
+}
+
+.date a:hover {
+    color: black;
+}
+
+.details h3 a {
+    color: black;
+}
+
+.details h3 a:hover {
+    color: var(--color-pink);
+}
+
+.description p {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}
+
+.admin-comment {
+    color: var(--color-pink);
+    font-size: 12px;
+}
+
+.admin-comment:hover i {
+    color: black;
+}
+
+.sub-heading {
+    letter-spacing: 2px;
+    color: var(--color-pink);
+    font-weight: 600;
+    position: relative;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #272727;
+}
+
+.vacation-rental p {
+    font-size: 18px;
+}
+
+a.read-more {
+    color: var(--color-pink);
+    text-decoration: none;
+}
+
+.services ul li {
+    list-style-type: none;
+    color: white;
+    margin-left: -33px;
+    line-height: 32px;
+}
+
+a.footer-link {
+    text-decoration: none;
+    border: 1px solid #323232;
+    padding: 6px;
+    color: white;
+    line-height: 41px;
+}
+
+.sub-form input {
+    outline: none;
+    background: #323232;
+    border: 1px solid #323232;
+}
+
+.sub-form {
+    display: flex;
+    background-color: #272727;
+}
+
+.sub-form .send {
+    height: 50px;
+    background-color: var(--color-pink);
+    width: 78px;
+    border-radius: 5px;
+}
+
+.sub-form .send i {
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.follow-us i {
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    margin-right: 9px;
+}
+
+.heading-2 {
+    color: white;
+    font-weight: 300;
+}
+
+.vacation-rental,
+.services,
+.tagcloud,
+.subscribes {
+    float: left;
+}
+
+@media (max-width:765px) {
+    h1,
+    h1,
+    h4,
+    h5,
+    h6 {
+        font-size: 28px;
+        color: black;
+    }
+    header nav {
+        justify-content: space-between;
+    }
+    header nav div.list {
+        display: none;
+    }
+    div.menu ul {
+        list-style: none;
+    }
+    header div.menu ul li ul {
+        background-color: white;
+        position: absolute;
+        top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        z-index: 999999;
+        list-style: none;
+        padding: 0;
+        right: 0%;
+        width: 100%;
+        transition: all .5s ease;
+        text-align: center;
+    }
+    header div.menu ul li:hover ul {
+        display: flex;
+    }
+    @keyframes scale-up {
+        0% {
+            transform: scaleX(0.4);
+            transform-origin: 0% 0%;
+        }
+        100% {
+            transform: scaleX(1);
+            transform-origin: 0% 0%;
+        }
+    }
+    .animated {
+        animation: scale-up 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    header div.menu ul.submenu li {
+        padding: 20px 0px;
+        width: 100%;
+    }
+    header div.menu ul.submenu li a {
+        text-decoration: none;
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        font-size: 20px;
+        color: var(--color-pink);
+    }
+    header div.menu ul.submenu li:hover {
+        background-color: none;
+    }
+    header div.menu ul.submenu li:hover a {
+        color: white;
+        background-color: var(--color-pink);
+    }
+    .content h3 {
+        font-size: 20px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .forma2 {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+    .section-1 .box {
+        flex-direction: column;
+        padding: 107px 20px;
+    }
+    .box1 {
+        padding: 20px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+    .box1 .img img {
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+    .title h1 {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .rooms-container {
+        padding: 13px;
+    }
+    .rooms-container .room1,
+    .rooms-container .room2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .rooms-container .room3,
+    .rooms-container .room4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .one1,
+    .two2,
+    .three,
+    .four {
+        height: 400px;
+    }
+    .body-room {
+        margin-bottom: 24px;
+    }
+    .section-3 {
+        margin: 60px 4px;
+    }
+    section.section-3>div.container-section-3>div>div:nth-child(1),
+    section.section-3>div.container-section-3>div>div:nth-child(2) {
+        display: none;
+    }
+    section.section-3>div.container-section-3>div>div:nth-child(3) {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        border: 1px solid white;
+        background-color: white;
+        padding: 16px;
+        width: 306px;
+        box-shadow: 16px 15px 5px 0px rgba(228, 228, 228, 0.75);
+    }
+    .quote-left {
+        position: absolute;
+    }
+    .person-photo {
+        background-image: url('../images/person1.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+    }
+    .person-photo1 {
+        background-image: url('../images/person2.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+    }
+    .person-photo2 {
+        background-image: url('../images/person2.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+    }
+    .first-feed .quote-left i {
+        font-size: 29px;
+        position: relative;
+        top: -27px;
+        left: 86px;
+    }
+    .container-section-4 {
+        padding: 10px 14px;
+        margin-bottom: 96px;
+    }
+    .left-side h1 {
+        font-size: 23px;
+    }
+    .grid .icon {
+        display: flex;
+    }
+    .grid .icon .icons {
+        width: 64px;
+        height: 65px;
+    }
+    .icons i {
+        font-size: 34px;
+        color: #fff;
+        margin-left: 15px;
+        margin-top: 13px;
+    }
+    .body-text {
+        margin-left: 10px;
+    }
+    .body-text h3 {
+        font-size: 17px;
+        color: black;
+    }
+    section.section-5>div.container-section-5>div>div>p:nth-child(2) {
+        text-align: center;
+    }
+    .three-boxes .box-room {
+        margin: 20px;
+    }
+    .three-boxes .box-room .img1,
+    .three-boxes .box-room .img2,
+    .three-boxes .box-room .img3 {
+        height: 400px;
+        top: 199px;
+    }
+    .three-boxes .details {
+        align-items: center;
+    }
+    .sub-heading {
+        font-size: 14px;
+        top: 52px;
+        right: 251px;
+    }
+    h1.text i {
+        font-size: 22px;
+    }
+    footer {
+        height: 992px;
+    }
+    .footer-container {
+        padding: 40px;
+    }
+    .vacation-rental {
+        width: 322px;
+    }
+    .services {
+        width: 200px;
+        margin-right: 71px;
+    }
+    .tagcloud {
+        width: 336px;
+        margin-right: 48px;
+    }
+    .subscribes {
+        width: 288px;
+    }
+    .sub-form input {
+        padding: 6px 6px;
+        width: 100%;
+    }
+}
+
+@media (min-width:765px) {
+    header nav {
+        justify-content: space-between;
+    }
+    header nav div.list {
+        display: none;
+    }
+    div.menu ul {
+        list-style: none;
+    }
+    header div.menu ul li ul {
+        background-color: white;
+        position: absolute;
+        top: 56px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999999;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        transition: all .5s ease;
+        right: 0%;
+        display: none;
+    }
+    header div.menu ul li:hover ul {
+        display: flex;
+    }
+    @keyframes scale-up {
+        0% {
+            transform: scaleX(0.4);
+            transform-origin: 0% 0%;
+        }
+        100% {
+            transform: scaleX(1);
+            transform-origin: 0% 0%;
+        }
+    }
+    .animated {
+        animation: scale-up 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    header div.menu ul.submenu li {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    header div.menu ul.submenu li a {
+        text-decoration: none;
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        font-size: 20px;
+        color: var(--color-pink);
+    }
+    header div.menu ul.submenu li:hover {
+        background-color: none;
+    }
+    header div.menu ul.submenu li:hover a {
+        color: white;
+        background-color: var(--color-pink);
+    }
+    .container .content {
+        width: 749px;
+    }
+    .content h1 {
+        font-size: 70px;
+    }
+    .section-1 {
+        justify-content: center;
+    }
+    .forma1 {
+        height: 373px;
+    }
+    .forma2 {
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+    .section-1 .box {
+        margin-top: 80px;
+    }
+    .box1 {
+        padding: 20px;
+        margin-left: 27px;
+        border-radius: 9px;
+        width: 100%;
+        margin-right: 23px;
+    }
+    .box1 .img img {
+        height: 200px;
+        background-size: cover;
+        background-position: center center;
+    }
+    section.section-1>div.box>div:nth-child(2)>div.body-box>p {
+        margin-left: 16px;
+    }
+    .title {
+        padding: 51px 0px;
+    }
+    .title h1 {
+        font-size: 53px;
+        transition: all 0.3s ease;
+        color: black;
+    }
+    .rooms-container {
+        display: grid;
+    }
+    .room1,
+    .room3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: flex;
+        height: 350px;
+    }
+    .room2,
+    .room4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        display: flex;
+        height: 350px;
+    }
+    section.section-3>div.container-section-3>div>div:nth-child(1) {
+        display: none;
+    }
+    section.section-3>div.container-section-3>div>div:nth-child(2),
+    section.section-3>div.container-section-3>div>div:nth-child(3) {
+        border: 1px solid white;
+        margin-right: 18px;
+        background-color: white;
+        padding: 16px;
+        display: flex;
+        width: 341px;
+        margin-left: 17px;
+        box-shadow: 16px 15px 5px 0px rgba(228, 228, 228, 0.75);
+    }
+    .quote-left i {
+        font-size: 35px;
+        position: relative;
+        top: -29px;
+        left: 89px;
+    }
+    .person-photo1 {
+        background-image: url('../images/person1.webp');
+        width: 223px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+        background-position-x: -7px;
+    }
+    .person-photo2 {
+        background-image: url('../images/person2.webp');
+        width: 223px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+        background-position-x: -7px;
+    }
+    .container-section-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 27px;
+        padding: 100px 0px;
+    }
+    .left-side h1 {
+        font-size: 30px;
+    }
+    .grid .icon {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 8px;
+    }
+    .grid .icon .icons {
+        width: 70px;
+        height: 70px;
+    }
+    .icons i {
+        font-size: 34px;
+        color: white;
+        position: relative;
+        left: 20px;
+        top: 15px;
+    }
+    .body-text {
+        width: 81%;
+        margin-left: -54px;
+    }
+    .heading h1 {
+        color: black;
+    }
+    .body-text h3 {
+        color: black;
+    }
+    .left-side h1 {
+        color: black;
+    }
+    section.section-5>div.container-section-5>div>div>h2 {
+        font-size: 50px;
+    }
+    .section-6 .three-boxes {
+        display: flex;
+        justify-content: center;
+    }
+    .three-boxes .box-room {
+        width: 350px;
+        margin-right: 17px;
+        margin-left: 10px;
+    }
+    .three-boxes .box-room .img1,
+    .three-boxes .box-room .img2,
+    .three-boxes .box-room .img3 {
+        height: 235px;
+        top: 117px;
+    }
+    .sub-heading {
+        font-size: 19px;
+        top: 127px;
+        left: -607px;
+    }
+    h1.text i {
+        font-size: 44px;
+    }
+    footer {
+        height: 698px;
+    }
+    .footer-container {
+        padding: 71px;
+    }
+    .vacation-rental {
+        width: 322px;
+    }
+    .services {
+        width: 200px;
+        margin-left: 59px;
+    }
+    .tagcloud {
+        width: 348px;
+    }
+    .subscribes {
+        width: 288px;
+        margin-left: 28px;
+    }
+    .sub-form input {
+        padding: 15px 28px;
+    }
+}
+
+@media (min-width:994px) {
+    header nav div.list {
+        display: block;
+    }
+    div.menu {
+        display: none;
+    }
+    header nav {
+        justify-content: space-around;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin-top: 43px;
+        list-style-type: none;
+    }
+    nav ul li:first-of-type {
+        list-style-type: none;
+        height: 55px;
+        border-bottom: 5px solid var(--color-pink);
+    }
+    nav ul li:hover {
+        height: 55px;
+        border-bottom: 5px solid var(--color-pink);
+    }
+    nav ul li:hover a {
+        color: var(--color-pink);
+    }
+    nav ul li a {
+        color: gray;
+    }
+    .container .content {
+        width: 749px;
+        padding-left: 105px;
+    }
+    .content h1 {
+        font-size: 59px;
+        width: 500px;
+    }
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -64px;
+    }
+    .section-1 .container-section-1 {
+        position: absolute;
+        bottom: 550px;
+        left: 58%;
+    }
+    section.section-1>div.container-section-1>div>form {
+        width: 395px;
+    }
+    .forma1 {
+        height: 373px;
+    }
+    .forma2 {
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    }
+    input,
+    select {
+        width: 100%;
+    }
+    .section-1 .box {
+        width: 1200px;
+        margin-top: 51px;
+    }
+    .box1 {
+        margin-left: 19px;
+        border-radius: 9px;
+    }
+    .title h1 {
+        font-size: 60px;
+        color: black;
+        transition: all 0.3s ease;
+    }
+    .rooms-container {
+        display: grid;
+    }
+    .room1,
+    .room3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        height: 350px;
+    }
+    .room2,
+    .room4 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        display: flex;
+        height: 350px;
+    }
+    section.section-3>div.container-section-3>div>div:nth-child(1),
+    section.section-3>div.container-section-3>div>div:nth-child(2),
+    section.section-3>div.container-section-3>div>div:nth-child(3) {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        border: 1px solid white;
+        margin-right: 18px;
+        background-color: white;
+        padding: 16px;
+        width: 306px;
+        box-shadow: 16px 15px 5px 0px rgba(228, 228, 228, 0.75);
+    }
+    .quote-left {
+        position: absolute;
+    }
+    .person-photo {
+        background-image: url('../images/person1.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+    }
+    .person-photo1 {
+        background-image: url('../images/person2.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+        background-position-x: 5px;
+    }
+    .person-photo2 {
+        background-image: url('../images/person2.webp');
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        border-radius: 63px;
+        margin-top: 14px;
+        background-position-x: 5px;
+    }
+    .container-section-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 27px;
+        padding: 100px 0px;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid .icon {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 8px;
+    }
+    .grid .icon .icons {
+        width: 70px;
+        height: 70px;
+    }
+    .body-text {
+        width: 81%;
+        margin-left: -13px;
+    }
+    .section-6 .three-boxes {
+        display: flex;
+        justify-content: center;
+    }
+    .three-boxes .box-room {
+        width: 350px;
+        margin-left: 26px;
+    }
+    .three-boxes .box-room .img1,
+    .three-boxes .box-room .img2,
+    .three-boxes .box-room .img3 {
+        height: 235px;
+        top: 117px;
+    }
+    .sub-heading {
+        font-size: 20px;
+        top: 127px;
+        right: 565px;
+    }
+    h1.text i {
+        font-size: 44px;
+    }
+    footer {
+        height: 560px;
+    }
+    .footer-container {
+        padding: 71px;
+    }
+    .vacation-rental {
+        width: 322px;
+    }
+    .services {
+        width: 200px;
+        margin-right: 71px;
+    }
+    .tagcloud {
+        width: 333px;
+        margin-right: 48px;
+    }
+    .subscribes {
+        width: 254px;
+    }
+    .sub-form input {
+        padding: 15px 28px;
+    }
+}
