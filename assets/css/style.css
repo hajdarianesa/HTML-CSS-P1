@@ -645,6 +645,10 @@ a.footer-link {
     line-height: 41px;
 }
 
+a.footer-link:hover {
+    border: 1px solid black;
+}
+
 .sub-form input {
     outline: none;
     background: #323232;
@@ -680,13 +684,6 @@ a.footer-link {
 .heading-2 {
     color: white;
     font-weight: 300;
-}
-
-.vacation-rental,
-.services,
-.tagcloud,
-.subscribes {
-    float: left;
 }
 
 @media (max-width:765px) {
@@ -909,9 +906,6 @@ a.footer-link {
     h1.text i {
         font-size: 22px;
     }
-    footer {
-        height: 992px;
-    }
     .footer-container {
         padding: 40px;
     }
@@ -920,11 +914,9 @@ a.footer-link {
     }
     .services {
         width: 200px;
-        margin-right: 71px;
     }
     .tagcloud {
         width: 336px;
-        margin-right: 48px;
     }
     .subscribes {
         width: 288px;
@@ -1161,24 +1153,20 @@ a.footer-link {
         font-size: 44px;
     }
     footer {
-        height: 698px;
+        padding: 25px;
     }
     .footer-container {
-        padding: 71px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .vacation-rental {
         width: 322px;
-    }
-    .services {
-        width: 200px;
-        margin-left: 59px;
     }
     .tagcloud {
         width: 348px;
     }
     .subscribes {
         width: 288px;
-        margin-left: 28px;
     }
     .sub-form input {
         padding: 15px 28px;
@@ -1365,24 +1353,20 @@ a.footer-link {
         font-size: 44px;
     }
     footer {
-        height: 560px;
+        padding: 62px;
     }
     .footer-container {
-        padding: 71px;
+        display: flex;
+        justify-content: space-between;
     }
     .vacation-rental {
         width: 322px;
     }
     .services {
         width: 200px;
-        margin-right: 71px;
     }
     .tagcloud {
         width: 333px;
-        margin-right: 48px;
-    }
-    .subscribes {
-        width: 254px;
     }
     .sub-form input {
         padding: 15px 28px;
