@@ -653,6 +653,7 @@ a.footer-link:hover {
     outline: none;
     background: #323232;
     border: 1px solid #323232;
+ color: white;
 }
 
 .sub-form {
