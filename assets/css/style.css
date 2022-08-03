@@ -886,6 +886,11 @@ a.footer-link:hover {
     section.section-5>div.container-section-5>div>div>p:nth-child(2) {
         text-align: center;
     }
+    .section-6 .three-boxes {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
     .three-boxes .box-room {
         margin: 20px;
     }
@@ -894,6 +899,7 @@ a.footer-link:hover {
     .three-boxes .box-room .img3 {
         height: 400px;
         top: 199px;
+        width: 377px;
     }
     .three-boxes .details {
         align-items: center;
